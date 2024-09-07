@@ -1,0 +1,227 @@
+
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+li{
+    list-style: none;
+}
+
+/* Header */
+.headerLink{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 150%;
+}
+.header{
+    padding: 17px 0;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerWarp{
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+}
+.headerMenu{
+    display: flex;
+}
+.headerItem{
+    margin-right: 70px;
+}
+.btn{
+    color: white;
+    background-color: #01996D;
+    border: 0px;
+    border-radius: 4px;
+    padding: 13px 50px;
+}
+.headerBtnWhite{
+    background-color: white;
+    color: black;
+}
+/* Main */
+.main{
+    padding: 170px;
+    background: url(./img/BG\ \(1\).png) no-repeat center center / cover;
+    height: 90vh;
+}
+.mainInfo{
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+}
+.mainTitle{
+    color: #01996D;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.mainText{
+    color: #484848;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+.mainBtn{
+    color: white;
+}
+/* steps */
+.steps{
+    
+    margin: 0 auto;
+    padding: 169px 0 255px 0;
+    max-width: 1400px;
+}
+.stepsMain{
+    color: #424242;
+    font-weight: 700;
+    font-style: 24px;
+}
+.stepsTitle{
+    
+    color: #01996D;
+    font-weight: 900;
+    font-size: 50px;
+    max-width: 584px;
+}
+.stepsText{
+    
+    color: #424242;
+    font-style: 20px;
+    font-weight: 500;
+    max-width: 900px;
+    margin-bottom: 60px;
+}
+.stepsBlock{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+.stepsCardTitle{
+    
+    color: #000;
+    font-weight: 900;
+    font-style: 30px;
+    margin-bottom: 55px;
+}
+.stepsCard{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stepsRow{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.stepsImg{
+    border-radius: 12px ;
+}
+.Lolkek{
+    padding: 0px 250px;
+}
+/* Video */
+.video{
+    padding: 170px;
+    height: 100vh;
+    background-color: #245852;
+}
+.videoMain{
+    max-width: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.VideoMainText{
+    color: white;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.VideoLink{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+.videoMove{
+    max-width: 100%;
+    width: 760px;
+    height: 300px;
+}
+/* profile */
+
+.profile{
+    max-width: 2000px;
+    height: 150vh;
+}
+.profileImg{
+    position: relative;
+
+}
+.image{
+    padding: 0 0 0 150px;
+ 
+}
+.image1{
+    position: absolute;
+    width: 800px;
+    height: 640px;
+    top: 500x;
+    left: 150px;
+}
+.image2{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 400px;
+    left: 0;
+}
+.profileTitle{
+    color: #01996D;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.profileInfo{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    padding: 370px 200px 0 300px;
+
+}
+.profileText{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+/* footer */
+.podval{
+    background-color: #245852;
+    height: 50vh;
+    padding: 100px 0 100px 300px;
+}
+.footer{
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+    margin-bottom: 40px;
+}
+.footerTitle{
+    font-size: 35px;
+
+}
